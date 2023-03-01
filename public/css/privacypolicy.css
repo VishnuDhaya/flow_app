@@ -1,0 +1,32 @@
+
+.privacy_tittle{
+  
+    font-weight: 700;
+    padding: 5% 45px;
+}
+.flow_icon{
+    height: 70px;
+     width: 196px;
+     margin: 10px 5%; 
+}
+.glossary{
+    margin:50px 0px 10px 0px;
+    font-size:30px;
+}
+.glossary_content p{
+    margin:20px 0px;
+}
+.text_header{
+    color: blue;
+}
+.tittle_text{
+    font-size: 40px;
+    margin-top:5%;
+}
+.privacy_policy_Banner{
+    background-image: url(../img/lock.jpeg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

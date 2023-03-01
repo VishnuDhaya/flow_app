@@ -1,0 +1,695 @@
+/***** common *****/
+.loader-spin{
+    margin-left: 50% !important;
+}
+.ReactTable{
+    overflow: hidden!important;
+}
+.padL_15{
+    padding-left: 15px!important;
+}
+.pad_15{
+    padding:15px!important;
+}
+.pad_right_10{
+    padding-right: 10px!important;
+}
+.padT_23{
+    padding-top: 23px!important;
+}
+.marT-5{
+    margin-top: 5px;
+}
+.text-red{
+    color: red!important;
+}
+.headerTitle{
+	font-size: 20px;
+	color: #ffff;
+}
+.headerPadvert{
+    padding: 15px 0px;
+}
+.labelTopgap{
+    padding-top: 23px;
+}
+.no_scroll .ReactTable .rt-table{
+    overflow: hidden!important;
+}
+.border_bot .ReactTable .rt-table{
+    border-bottom: solid 1px #656d83;
+}
+.excess_time_blinkerTable{		
+    -webkit-animation: blinker 1s linear infinite;
+    animation: blinker 1s linear infinite; 
+    color: red;   
+}
+/***** table common styles *****/
+
+@keyframes tabBorder_blinker {
+	50% {        
+        border-radius: 5px;
+        background: #204d69;        
+	}
+}
+.text-redDark{
+    color: red;
+}
+.redBlink_table{
+    -webkit-animation: tabBorder_blinker 0.7s step-end infinite alternate;
+    animation: tabBorder_blinker 0.7s step-end infinite alternate;     
+}
+.rt-tbody .rt-tr{
+    align-items: center!important;
+}
+.tableHead_font{
+    font-size: 20px!important;
+    padding:15px 0px!important
+}
+.tableHeader_font th{
+    color: #17a2b8 !important;
+    font-weight: bold;
+    border-top: 1px solid #656d83 !important;
+    border-bottom: 1px solid #656d83 !important;
+    padding: 10px 5px;
+}
+.ReactTable .rt-th{
+    color: #17a2b8 !important;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px 5px!important;
+    border-top: 1px solid #656d83 !important;
+    border-bottom: 1px solid #656d83 !important;
+    font-size: 0.875rem!important;
+}
+.ReactTable .rt-tr{
+    font-size: 0.875rem!important;
+}
+.tableAmount_rightAlign{
+    text-align: right!important;
+}
+.tableAmount_centerAlign{
+    text-align: center!important;
+}
+.filterBtns{
+    margin: 18px 0px;
+    border: none;
+    border-radius: 7px;
+    margin-left: 10px;
+}
+
+/***** cust_account_view *****/
+
+.ul4_count{
+    column-count: 4;
+}
+.cust_agreementBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.ul3_count{
+    column-count: 3;
+    list-style-type: none;
+}
+
+/***** acc_purpose dropdown *****/
+
+.accPur_box{       
+    position: relative;
+}
+.dropdownAccpur_Pos{
+    position: absolute;
+    top: 20px;
+    right: -10px;
+    padding: 10px;
+}
+.accPur_close{
+    margin: 0px 5px 0px 2px;
+    cursor: pointer;
+}
+.accPur_dropbox{
+    border-bottom: 2px solid #17a2b8;    
+    height: 53px;    
+}
+.accPur_dropbox .form-control{
+    background-image: none!important;
+}
+.drop_style{
+    background: #202940;
+    position: absolute;
+    width: 100%;
+    top: 55px;    
+    padding: 3px;
+    border: 1px solid #596176;
+    border-radius: 8px;  
+    z-index: 10;     
+}
+.checkAndVal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.checkAndVal input{
+    margin: 0px 5px;
+}
+.checkAndVal input:hover{
+    cursor: pointer;
+}
+.checkAndVal:hover{    
+    background-color: #2090FF;    
+}
+.dropShow{
+    display: block;
+    
+}
+.accPur_placeHol::placeholder{
+    color: white!important;
+    font-size: 0.875rem!important;
+}
+
+/***** homescreentablefilterbuttons *****/
+
+.allFilter_active{
+    background-color: grey!important;
+    color: #ffff;
+    font-weight: 600;
+}
+.allBtn_size{
+    width: 60px;
+    height:30px;
+}
+.home_header_d-flex_at_response{
+    display: flex;
+}
+.home_stalled_fa a{
+    color: #17a2b8;
+}
+.home_stalled_fa .export_btn {
+    position: absolute;
+    top:-15px;
+    right:15px;
+}
+
+
+
+
+/* # Desktop
+only screen and */
+
+/***** csWeightagepage *****/
+
+.csWeightagetab .rt-th{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.csWeightagetab .rt-tfoot{
+    border-top: 1px solid #656d83;
+    border-bottom: 1px solid #656d83;
+    margin-top: 10px;
+}
+
+/***** listAccountprovider *****/
+
+.rt_borderBottom{
+    border-bottom: 1px solid #656d83!important;
+}
+
+/***** customer search list table UI *****/
+
+
+.textInputshow_searchBox .form-check .form-check-input{
+    z-index: 2;    
+    opacity: 1!important;    
+}
+.customer_list_reactTable .ReactTable .-pagination{
+    align-items: center;
+}
+.customer_list_reactTable .ReactTable .-previous .-btn {
+    width: 80px!important;
+    border-radius: 5px!important;
+    background: linear-gradient(60deg, #17a2b8, #52b2c1) !important;
+    color: #ffff!important;
+    margin-left: auto!important;
+    opacity: 1!important;
+    padding: 0px !important;
+    height: 30px;
+}
+.customer_list_reactTable .ReactTable .-next .-btn {
+    width: 80px!important;
+    border-radius: 5px!important;
+    background: linear-gradient(60deg, #17a2b8, #52b2c1) !important;
+    color: #ffff!important;
+    margin-right: auto!important;
+    opacity: 1!important;
+    padding: 0px !important;
+    height: 30px;   
+}
+.customer_list_reactTable .ReactTable .-pageInfo{
+    color: white!important;
+}
+.customer_list_reactTable .ReactTable .-pagination .-pageJump input{
+    background: linear-gradient(60deg, #17a2b8, #52b2c1) !important;
+    color: #ffff;
+}
+.customer_list_reactTable .ReactTable .-pagination select {
+    background: linear-gradient(60deg, #17a2b8, #52b2c1) !important;
+    color: #ffff;
+}
+.search_pos{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+}
+.search_posInput{
+    padding:5px 5px 5px 25px;    
+    outline: none;
+    border-radius: 10px;
+}
+.searchInput_height input{
+    height: 25px;
+}
+.advanceSearch_groupBox{
+    padding: 5px 15px;
+    background-color: #3d3e53;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.formInputadvanced_search .form-check .form-check-sign:before{
+    width: 0px!important;
+    height: 0px!important;
+}
+
+
+/***** login *****/
+
+.loginBox{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 15px;
+    transform: translate(-50%, -50%);
+}
+
+/***** audit KYC Screen ****/
+
+.fieldStyle_auditKYC{
+    border: solid 1px #7b8a99 !important;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+/***** Management Dashboard *****/
+
+.manDash_currencySelector{
+    display: flex;
+    list-style-type: none;
+}
+@media print {
+    body *{
+        -webkit-print-color-adjust: exact;
+        -moz-print-color-adjust: exact;
+        -ms-print-color-adjust: exact;
+        color-adjust: exact;
+        visibility: hidden;        
+    }    
+    #convertPDF, #convertPDF * {
+        visibility: visible;
+    }   
+}
+.manage_dashContainer{
+    padding: 0px 15px 0px 15px;
+}
+.manDash_currencySelector li{
+    padding: 5px;
+    background-color: white;
+    border: solid 1px grey;
+    cursor: pointer;
+}
+.border_left{
+    border-radius: 5px 0px 0px 5px;
+}
+.border_right{
+    border-radius: 0px 5px 5px 0px;
+}
+.country_selector{
+    cursor: pointer;
+    padding: 0px 8px;
+}
+.country_dropDownbg{
+    background-color: white;
+    width: 160px;    
+    border-radius: 3px;
+}
+.dropdown_trig{
+    padding: 2px 8px;
+}
+.country_dropDownbg img {
+    width: 30px!important;
+}
+.country_dropDownbg .dropdown-toggle::after{
+    display: none;
+}
+.country_selector:hover{
+    background-color: lightgray;
+}
+.manDash_main{
+    position: relative;
+    background-color: #e2e6f3;           
+    height: auto;
+    padding-bottom: 20px;
+}
+.manDash_contentBox{    
+    display: flex;
+    justify-content: space-evenly;   
+}
+.manDash_content{
+    width: 46%;    
+    background-color: white;
+    padding-bottom: 15px;
+    box-shadow: 0px 0px 5px lightgray;
+    z-index: 100;
+}
+.manDash_bgAbs{
+    height: 100px;
+    background-color: #1a2035;
+    position: absolute;
+    top:0;
+    width: 100%;
+}
+.violet_bg{
+    background-color : #eef0f8;
+}
+.white_bg{
+    background-color: #ffff;
+}
+.cust_metrics{
+    width: 94.5%;    
+    margin: auto;    
+    box-shadow: 0px 0px 5px lightgray;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    background-color: white;
+}
+.manDash_header{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    border-bottom: solid 1px lightgray;
+}
+.manDash_roundBox{
+    padding: 15px;    
+    border-radius: 10px;
+    margin-top: 15px;
+    box-shadow: 0px 0px 5px lightgrey;
+    background-image: radial-gradient(#ffff, #99a6d3);
+}
+.manDash_subHeader{
+    font-size: 16px;
+    padding: 15px 0px 0px 15px;
+}
+.manDash_subContent{
+    box-shadow: 0px 0px 5px lightgray;
+    margin: 15px;
+    background-image: linear-gradient(#bcc5e2, #eef0f8);
+}
+.custMetricsbox_pad{
+    padding: 30px;
+}
+.bestPer_box{    
+    margin: 15px;
+}
+.bestPer_contentbox{
+    padding: 15px;
+    background-color: #eef0f8;
+}
+.boderSeprator{
+    border-right: 1px solid;
+}
+.opac_50{
+    opacity: 0.5;
+    cursor:pointer !important;
+}
+
+
+/* react_table_v7 */
+.react_table_v7{
+    overflow-x: scroll;    
+}
+.react_table_v7 table{    
+    color: #fff;
+    width: 100%;
+}
+.react_table_v7 thead{    
+    border-top: 1px solid #656d83 !important;
+    border-bottom: 1px solid #656d83 !important;    
+}
+.react_table_v7 th{
+    color: #17a2b8 !important;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px 5px!important;    
+    font-size: 0.875rem!important;
+}
+.react_table_v7 tr{
+   width: 100%!important;
+   justify-content: space-around!important;
+   display: flex;   
+   border-bottom: 1px solid #202940 !important;
+   align-items: center;
+}
+.react_table_v7 tbody{
+    border-bottom: 1px solid #656d83 !important;  
+}
+.react_table_v7 td{
+    padding:10px 5px;    
+    display: flex;
+    overflow: hidden;
+}
+.table_td_nowrap .react_table_v7 td{          
+    white-space: pre-wrap!important;
+}
+.page_index_input{
+    width: 50px!important;
+    text-align: center;
+    outline: none;
+    border-radius: 5px;
+    height: 24px;
+    border: none;
+}
+.page_control_btn{
+    border: none;
+    border-radius: 5px;
+    height: 24px;
+    background-color: #17a2b8;
+}
+.pagination_btn_theme_bg{
+    background-color: #17a2b8;
+}
+.pagination_btn_margin{
+    margin: 0px 10px;
+}
+
+/* monthlyreport-dashboard */
+.monthly_report_input{
+        margin-left: 25px;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        width: 200px;
+        padding: 5px 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .monthly_report_input {
+        width: 63px;
+        padding: 5px 10px;
+    }
+    .monthly_report_currency_selector{
+        margin-top: 15px;
+    }
+    .monthly_report_porfolio{
+        margin-left: -10px !important;
+    }
+  }
+
+.monthly_report_currency_selector{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.monthly_report_currency_selector ul{
+    background: lightgray;
+    display: inline-flex;
+    column-count: 3;
+    list-style: none;
+    border-radius: 5px;
+}
+.monthly_report_currency_selector ul li{
+    padding: 5px 15px ;
+}
+.monthly_report_active_currency{
+  color: #2fa7bb;
+  border-radius: 5px;
+  background-color: white;
+  font-weight: 600;
+}
+.country_dropDownbg{
+    margin-left: 22px;
+    width: 200px;
+    border-radius: 5px;
+}
+.monthly_report_business_volume{
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: #20233f;
+    margin-top: 20px;
+    border-bottom: 3px solid gray;
+}
+.monthly_report_busiess_volume_innerheader{
+    padding:10px 15px;
+    border-bottom: 1px solid gray;
+}
+.business_volume_blueborder{
+    border: 1px solid #54879c;
+    border-radius:10px;
+    background-color: #32334d;
+    padding: 12px 20px;
+    margin-bottom: 30px;
+}
+.monthly_report_outstanding_Figures{
+    border: 1px solid #424e6d;
+    padding:10px;
+    border-radius: 5px;
+}
+.monthly_report_outstanding_table{
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+.month_report_impact{
+    background: linear-gradient(0deg, #1a1c2e, #31344c) !important;
+    border-radius: 10px;
+    border: 1px solid #4e537e;
+    padding:10px 20px;
+
+}
+.monthly_report_imact_list{
+    width: 5px;
+    height:5px;
+    background:#047efa;
+}
+.monthly_report_imact_list_circle{
+    width: 10px;
+    height:10px;
+    background:#047efa;
+    border-radius: 10px;
+}
+.month_report_impact p, .monthly_report_piechart p{
+    padding-left: 5px;
+    font-size: 14px; 
+}
+.monthly_report_piechart_inner{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #20233f;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.monthly_report_piechart_gender{
+    text-align: center;
+    margin-top: 40%;
+    margin-left: -90px;
+}
+.apexcharts-legend{
+    position: absolute;
+    left: auto;
+    top: 50% !important;
+    right: 0px !important;
+}
+.apexcharts-legend-text{
+    color: white !important;
+} 
+.apexcharts-legend-series{
+    margin: 5px;
+}
+.notactive{
+  color: black;
+  background: #ebe8e8;
+  border-radius: 3px; 
+}
+.roundoffvalue p{
+    color: white !important;
+    font-size: 15px;
+}
+.monthly_report_currencySelector{
+     background-color: white;
+     border-radius: 5px;
+}
+.active-currency{
+    border-radius: 5px;
+    color: #17a2b8 !important;
+    background-color: #f6f7fb;
+    font-weight: 600;
+}
+.monthly-report-churnrate .fa-circle-exclamation{
+    color: #4bb6e5;
+    font-size: 17px;
+}
+
+    .export_button_acordin a{
+        padding: 7px !important;
+    
+    }
+
+/***** Responsive CSS starts *****/
+
+/***** home *****/
+@media only screen and (max-width: 600px) {
+    .home_header_d-flex_at_response{
+        display: block!important;
+    } 
+    .home_table_box_margin_at_response{
+        margin-left: -15px;
+        margin-right: -15px;
+    }  
+    .countREL{
+        display: inline-flex!important;
+    }        
+}
+@media only screen and (max-width: 420px) {    
+    .home_table_box_margin_at_response .-pagination{
+        flex-direction: column!important;
+    }     
+}
+@media only screen and (min-width: 600px) {
+    .home_header_d-flex_at_response{
+        display: inline-flex!important;
+    }                    
+}
+
+@media only screen and (min-width: 768px) {
+    .export_button_acordin{
+        margin-top: -40px !important;
+        padding-bottom: 20px !important;
+        margin-left: 80% !important; 
+    }
+  }
+
+  @media only screen and (min-width: 992px)  {
+    .export_button_acordin{
+        margin-top: -65px !important;
+        padding-bottom: 20px !important;
+        margin-left: 60% !important; 
+    }
+    .export_button_acordin a{
+        margin-top: -30px !important;
+    }
+   
+  }

@@ -1,0 +1,7 @@
+<div>
+	Hi {{$flow_rel_mgr_name}},<br>
+	&nbsp;&nbsp;<p>The agreement {{$aggr_doc_id}} for customer {{$cust_name}} ({{$dp_cust_id}}) is expired. Please create a new agreement for the customer, so that customer shall continue getting float.</p>
+	<br><br><br>
+	thanks<br>
+	FLOW Admin	
+</div>
